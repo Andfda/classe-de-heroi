@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Classe do Héroi</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            Escolha a Classe do Héroi
+        </h1>
+    </header>
+    <main>
+        <picture>
+            <input type="image" value="Guerreiro" src=".//Imagens/guerreiro.png" alt="guerreiro" id="guerreiro"
+                title="Guerreiro" onclick="selecionar(guerreiro)">
+            <input type="image" value="Mago" src=".//Imagens/mago.png" alt="mago" id="mago" title="Mago"
+                onclick="selecionar(mago)">
+            <input type="image" value="Monge" src=".//Imagens/monge.png" alt="monge" id="monge" title="Monge"
+                onclick="selecionar(monge)">
+            <input type="image" value="Ninja" src=".//Imagens/ninja.png" alt="ninja" id="ninja" title="Ninja"
+                onclick="selecionar(ninja)">
+        </picture>
+
+    </main>
+    <div id="res">
+    </div>
+    <div id="atq">
+        <img id=img src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
